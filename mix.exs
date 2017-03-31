@@ -42,7 +42,7 @@ defmodule FacebookMessenger.Mixfile do
     if Mix.env == :test do
       [{:coverex, "~> 1.4.8", only: :test}, {:poison, "~> 2.1.0 or ~> 3.0", override: true} | d]
     else
-      [{:poison, "~> 2.1.0 or ~> 3.0"} | d]
+      [{:poison, "~> 2.2.0 or ~> 3.0"} | d]
     end
   end
 
